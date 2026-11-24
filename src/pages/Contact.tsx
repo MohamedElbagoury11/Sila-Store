@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
             
             <dl className="mt-10 space-y-6 text-base leading-7 text-gray-600">
-              <div className="flex gap-x-4">
+             {/*<div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">{t('common.address_label')}</span>
                   <MapPin className="h-7 w-6 text-gray-400" aria-hidden="true" />
@@ -35,7 +35,7 @@ const Contact = () => {
                   <br />
                   {t('contact.address_text')}
                 </dd>
-              </div>
+              </div>*/}
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">{t('common.phone_label')}</span>
